@@ -2,14 +2,13 @@ import defaultTheme from 'tailwindcss/defaultTheme'
 import forms from '@tailwindcss/forms'
 
 /** @type {import('tailwindcss').Config} */
+// tailwind.config.js
 export default {
   content: [
-    './resources/views/**/*.blade.php',
-    './resources/js/**/*.js',
-    './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
-    './storage/framework/views/*.php',
+    "./resources/**/*.blade.php",
+    "./resources/**/*.js",
+    "./resources/**/*.vue",
   ],
-
   theme: {
     extend: {
       fontFamily: {
