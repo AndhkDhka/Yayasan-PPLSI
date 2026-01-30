@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 </head>
 
-<body class="bg-red-500 text-white text-3xl">
+<body class="m-0 p-0 font-sans text-gray-800">
 
     {{-- NAVBAR --}}
     <nav class="fixed top-6 left-0 right-0 z-[9999] flex justify-center">
