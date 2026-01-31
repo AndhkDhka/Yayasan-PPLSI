@@ -91,6 +91,8 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 </script>
 
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
 </head>
 
 <body class="m-0 p-0 font-sans text-gray-800">

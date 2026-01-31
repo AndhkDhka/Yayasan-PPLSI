@@ -6,7 +6,8 @@
 
 {{-- HERO SECTION --}}
 <section 
-    class="relative w-full h-screen overflow-hidden"
+    class="relative w-full h-screen overflow-hidden bg-cover bg-center"
+    style="background-image: url('{{ asset('images/Backgrounds.jpg') }}')"
     x-data="heroSlider([
         '{{ asset('images/Backgrounds.jpg') }}',
         '{{ asset('images/Background1.jpg') }}',

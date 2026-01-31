@@ -8,6 +8,23 @@ import Alpine from 'alpinejs';
 window.Alpine = Alpine;
 Alpine.start();
 
+window.heroSlider = function (images) {
+    return {
+        images: images ?? [],
+        currentIndex: 0,
+
+        init() {
+            if (!this.images.length) return;
+
+            setInterval(() => {
+                this.currentIndex =
+                    (this.currentIndex + 1) % this.images.length;
+            }, 5000);
+        }
+    }
+}
+
+
 // Swiper
 document.addEventListener('DOMContentLoaded', function () {
     new Swiper('.swiper', {
